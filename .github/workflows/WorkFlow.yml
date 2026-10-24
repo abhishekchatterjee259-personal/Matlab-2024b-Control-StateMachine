@@ -2,9 +2,9 @@ name: Matlab CI/CT
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "Debounce-Logic"]
   pull_request:
-    branches: ["main"]
+    branches: ["main", "Debounce-Logic"]
 
 
 jobs:
