@@ -13,7 +13,7 @@ jobs:
     steps:
 
       - name: Checkout Repository
-        uses: matlab-actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Setup Matlab Version 2024b
         uses: matlab-actions/setup-matlab@v2
